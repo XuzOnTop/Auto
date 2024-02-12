@@ -1,245 +1,201 @@
 -- Random Questions and Answers
 local randomQuestions = {
-    "If you could be any age for the rest of your life, which would you choose?",
-    "What’s your favorite animal?",
-    "Which celebrity would you choose for your best friend?",
-    "If you could only wear one color for the rest of your life, which one would you choose?",
-    "What’s your favorite memory of us?",
-    "What does your perfect day look like?",
-    "Why are turtles green?",
-    "What’s the best way to waste time?",
-    "What is your go-to shower song to sing?",
-    "What is the worst food of all time?",
-    "Do you have a go-to karaoke song?",
-    "What’s your favorite place to visit?",
-    "When do you feel the most stressed?",
-    "What’s your go-to breakfast order?",
-    "What’s your favorite way to exercise?",
-    "What’s your favorite playlist?",
-    "What was the best gift you ever received?",
-    "What makes you the most angry?",
-    "What’s your favorite nickname you’ve been given?",
-    "What is something you can’t give up?",
-    "What was the best part of your day?",
-    "Do you have a favorite weekend activity?",
-    "What’s something about me that annoys you?",
-    "Do you think money brings happiness?",
-    "Do you cry easily?",
-    "What’s the last book that made you cry?",
-    "Hiking or video games?",
-    "If you could design a video game about anything, what topic would you choose?",
-    "What’s something you’re really good at?",
-    "If you could describe our friendship in three words, what would they be?",
-    "Are you adventurous?",
-    "What’s your favorite Disney character?",
-    "Who would you pay the most money to see in concert?",
-    "Would you rather be in a cartoon or have an artist paint your picture?",
-    "Would you rather be a musician or a movie star?",
-    "What is one thing you think is really overrated?",
-    "What’s your dream car?",
-    "Personal uniforms or a different outfit every day?",
-    "What’s your favorite family tradition?",
-    "What was your favorite birthday party?",
-    "What’s one thing you would tell your childhood self?",
-    "Board games or puzzles?",
-    "If you could get rid of one veggie immediately, which one would you choose?",
-    "Who was your favorite teacher and why?",
-    "What was your favorite toy growing up?",
-    "Who was your first celebrity crush?",
-    "Which celebrity would you break up with me for?",
-    "Romantic vacation or solo trip?",
-    "Couples costume for Halloween or no way?",
-    "What was the best day of your life?",
-    "Would you still like me if I was a worm?",
-    "Dinner date or movie night at home?",
-    "What song would you serenade me with?",
-    "Do you have any hidden talents?",
-    "Do you read your horoscope?",
-    "What do you consider your oddest quirk?",
-    "Where is a place you’ve always wanted to visit?",
-    "What’s the biggest lesson you learned this year?",
-    "Do you have a favorite book?",
-    "What’s your favorite film of all time?",
-    "If you could live with a fictional character, who would you choose as your roommate?",
-    "What does your dream house look like?",
-    "What impresses you the most?",
-    "What is your least favorite word or phrase?",
-    "What gives you the ick?",
-    "Do you have any deal breakers?",
-    "What’s your favorite flavor of ice cream?",
-    "Would you ever share clothes with a significant other?",
-    "If you were a superhero, what would your secret power be?",
-    "How would you spend a million dollars?",
-    "What was your favorite family vacation?",
-    "What is one thing that will always make you laugh?",
-    "How many pillows do you sleep with?",
-    "Do you feel supported?",
-    "What is your favorite thing to do with another person?",
-    "What’s your idea of a healthy relationship?",
-    "What is something that will immediately ruin your day?",
-    "Do you trust people easily?",
-    "If you could have any animal as a pet, what would you choose?",
-    "Are you a spiritual person?",
-    "Do you believe in monogamy?",
-    "What’s your favorite thing about yourself?",
-    "Do you have any favorite sports?",
-    "What’s the ultimate comfort food?",
-    "Do you have a favorite class in school?",
-    "What do you wish was a school class that currently isn’t?",
-    "Where do you want to live when you’re older?",
-    "If you could immediately gain one ability, what would it be?",
-    "What is your favorite kind of gift?",
-    "Do you like hugs?",
-    "How do you want to be remembered?",
-    "When do you feel the most secure?",
-    "How do you define cheating?",
-    "Are you a morning person or a night owl?",
-    "What’s your favorite way to celebrate something?",
-    "What’s your favorite soda?",
-    "What emoji do you use the most?",
-    "What’s your biggest pet peeve?",
-    "What do you think the most important job is?",
-    "How do you like to spend your free time?",
-    "What’s one thing you’ve always wanted to learn?",
-    "Do you prefer air or train travel?",
-    "Who is your style role model?",
-    "Have you ever seen a ghost?",
-    "What was the best meal you’ve ever eaten?",
-    "What is your favorite type of movie?",
-    "Do you like haunted houses?",
-    "What’s the longest amount of time you’ve been away from home?",
-    "Do you prefer traveling with others or going on a solo adventure?",
-    "What is your favorite way to kick off a day?",
-    "Do you speak any other languages?",
-    "What’s the most important quality in a friend, in your opinion?",
-    "What is your favorite memory?",
-    "What kind of career do you want?",
-    "Are you an introvert or an extrovert?",
-    "What’s a weird smell that you really enjoy?",
-    "What do you wish you had more time to do?",
-    "What’s your ideal meal?",
-    "Do you have a favorite color?",
-    "Did you like school growing up? Why or why not?",
-    "What makes you happy?",
-    "Who is your biggest role model?",
-    "What do you think the most unpleasant sound is?",
-    "Are there any songs you know all of the lyrics to?",
-    "What is the spiciest food you’ve ever eaten?",
-    "What do you think the worst hairstyle of all time was?",
-    "What is a silly thing you take a lot of pride in?",
-    "Do you believe in aliens?",
-    "What’s your attachment style?",
-    "What’s your astrological sign?",
-    "Do you think you have a greater life purpose?",
-    "Which of the four seasons is your favorite?",
-    "Coffee or tea?",
-    "Have you ever won an award?",
-    "How do you like to spend a rainy day?",
-    "What’s one opportunity you feel like you missed out on?",
-    "Do you remember names easily?",
-    "Text or phone call?",
-    "Do you have a favorite kind of flower?",
-    "What is your favorite piece of advice?",
-    "When was the last time you cried?",
-    "What are you most worried about right now?",
-    "How do you think the world is going to end?",
-    "What makes you the most proud?",
-    "What’s one thing you would change about yourself?",
-    "What motivates you?",
-    "What do you do when you need some inspiration?",
-    "When was the last time you got into a big fight?",
-    "Do you believe in an afterlife?",
-    "What is one thing you think can’t be explained?",
-    "If you had to give one thing up for life, what would it be?",
-    "Which family member are you the closest to?",
-    "Who do you wish you were closer to?",
-    "When was the last time you did a random act of kindness?",
-    "What’s your biggest fear?",
-    "Where do you see yourself in 10 years?",
-    "If you could travel back in time, where would you go?",
-    "Do you believe in destiny?",
-    "What’s the biggest coincidence you’ve ever witnessed?",
-    "How do you show love?",
-    "Do you think everything happens for a reason?",
-    "What’s your biggest regret in life?",
-    "Do you think animals and humans have a special connection?",
-    "What do you think the kindest thing someone can do is?",
-    "Are you a confrontational person?",
-    "Do you believe in karma?",
-    "How connected do you feel to the world?",
-    "Do you believe in love at first sight?",
-    "Who is your biggest fan?",
-    "What are you excited about right now?",
-    "What do you find yourself thinking about the most?",
-    "What do you notice first about another person?",
-    "Do you enjoy speaking with strangers?",
-    "How do you think your friends describe you?",
-    "What do you think the quickest way to turn around a bad day is?",
-    "Are you a jealous person?",
-    "Is it ever ok to lie to someone?",
-    "How do you like to cheer other people up?",
-    "Who do you go to first when you have a big decision to make?",
-    "What is the biggest decision you’ve ever made?",
-    "Are you a spontaneous person?",
-    "Do you think AI will change the world for the better?",
-    "What’s the biggest injury you’ve ever had?",
-    "What keeps you up at night?",
-    "How important is family to you?",
-    "Is the glass half empty or half full?"
+    ["If you could be any age for the rest of your life, which would you choose?"] = "I would choose to be in my mid-twenties, as it's a time of youth, vitality, and exploration.",
+    ["What’s your favorite animal?"] = "My favorite animal is the majestic elephant. They symbolize strength, wisdom, and loyalty.",
+    ["Which celebrity would you choose for your best friend?"] = "If I could choose any celebrity for my best friend, I'd pick someone down-to-earth and fun like Jennifer Lawrence.",
+    ["If you could only wear one color for the rest of your life, which one would you choose?"] = "I would choose black because it's versatile, timeless, and goes with everything.",
+    ["What’s your favorite memory of us?"] = "One of my favorite memories of us is our spontaneous road trip to the beach. It was filled with laughter, adventure, and unforgettable moments.",
+    ["What does your perfect day look like?"] = "My perfect day would start with a delicious breakfast, followed by a scenic hike in nature, quality time with loved ones, and ending with a cozy movie night.",
+    ["Why are turtles green?"] = "Turtles are green because their shells and skin contain pigments called chlorophyll and carotenoids, which provide camouflage and protection in their natural habitats.",
+    ["What’s the best way to waste time?"] = "The best way to waste time is to indulge in activities that bring joy, relaxation, and creativity, whether it's reading a book, exploring nature, or pursuing a hobby.",
+    ["What is your go-to shower song to sing?"] = "My go-to shower song to sing is 'Bohemian Rhapsody' by Queen. It's a classic that never gets old!",
+    ["What is the worst food of all time?"] = "In my opinion, the worst food of all time is durian fruit. Its strong odor and unique taste can be off-putting to many people.",
+    ["Do you have a go-to karaoke song?"] = "My go-to karaoke song is 'Don't Stop Believin'' by Journey. It's a crowd-pleaser that always gets everyone singing along!",
+    ["What’s your favorite place to visit?"] = "My favorite place to visit is the serene countryside, where I can escape the hustle and bustle of city life and connect with nature.",
+    ["When do you feel the most stressed?"] = "I feel the most stressed when I have a lot of deadlines looming and too many tasks on my plate. Taking breaks and practicing mindfulness helps me manage stress effectively.",
+    ["What’s your go-to breakfast order?"] = "My go-to breakfast order is avocado toast with poached eggs and a side of fresh fruit. It's nutritious, delicious, and energizing!",
+    ["What’s your favorite way to exercise?"] = "My favorite way to exercise is by going for a scenic run outdoors. It allows me to clear my mind, enjoy nature, and stay fit.",
+    ["What’s your favorite playlist?"] = "My favorite playlist is a mix of upbeat pop songs and soothing acoustic tracks. It's perfect for any mood or occasion!",
+    ["What was the best gift you ever received?"] = "The best gift I ever received was a handwritten letter from a dear friend expressing their love and appreciation for our friendship. It was heartfelt and deeply meaningful.",
+    ["What makes you the most angry?"] = "I feel the most angry when I witness injustice, cruelty, or dishonesty. It's important to stand up for what's right and work towards positive change.",
+    ["What’s your favorite nickname you’ve been given?"] = "My favorite nickname I've been given is 'Sunshine' because it reflects my positive and cheerful personality.",
+    ["What is something you can’t give up?"] = "I can't give up my morning cup of coffee. It's a comforting ritual that helps me start the day on the right foot.",
+    ["What was the best part of your day?"] = "The best part of my day was spending quality time with loved ones and sharing laughter and meaningful conversations.",
+    ["Do you have a favorite weekend activity?"] = "My favorite weekend activity is going for a leisurely hike in the mountains followed by a picnic with friends. It's a refreshing way to unwind and connect with nature.",
+    ["What’s something about me that annoys you?"] = "One thing that annoys me is when people are constantly late without apologizing or providing a valid reason. It shows a lack of respect for others' time.",
+    ["Do you think money brings happiness?"] = "Money can contribute to happiness by providing financial security and opportunities, but true happiness comes from meaningful relationships, personal growth, and fulfillment.",
+    ["Do you cry easily?"] = "I don't cry easily, but I believe that expressing emotions, including sadness, is healthy and important for mental well-being.",
+    ["What’s the last book that made you cry?"] = "The last book that made me cry was 'The Kite Runner' by Khaled Hosseini. Its poignant storytelling and themes of redemption and forgiveness deeply moved me.",
+    ["Hiking or video games?"] = "I enjoy both hiking and playing video games, but if I had to choose, I'd pick hiking. It allows me to disconnect from screens, enjoy nature, and stay active.",
+    ["If you could design a video game about anything, what topic would you choose?"] = "If I could design a video game, I would choose to create an adventure game set in a fantasy world filled with mythical creatures, epic quests, and moral choices.",
+    ["What’s something you’re really good at?"] = "I'm really good at problem-solving and finding creative solutions to challenges. It's a skill that serves me well in both personal and professional endeavors.",
+    ["If you could describe our friendship in three words, what would they be?"] = "Our friendship is supportive, genuine, and uplifting.",
+    ["Are you adventurous?"] = "Yes, I consider myself adventurous. I enjoy trying new things, exploring new places, and pushing myself out of my comfort zone.",
+    ["What’s your favorite Disney character?"] = "My favorite Disney character is Simba from 'The Lion King'. His journey of self-discovery, courage, and leadership is inspiring.",
+    ["Who would you pay the most money to see in concert?"] = "I would pay the most money to see Adele in concert. Her powerful voice and emotional performances are truly captivating.",
+    ["Would you rather be in a cartoon or have an artist paint your picture?"] = "I would rather have an artist paint my picture. It would capture my essence and personality in a unique and timeless way.",
+    ["Would you rather be a musician or a movie star?"] = "I would rather be a musician because music has the power to connect people, evoke emotions, and inspire change.",
+    ["What is one thing you think is really overrated?"] = "One thing I think is really overrated is celebrity gossip. It distracts from more important issues and perpetuates harmful stereotypes.",
+    ["What’s your dream car?"] = "My dream car is a Tesla Model S. It's sleek, eco-friendly, and packed with innovative features.",
+    ["Personal uniforms or a different outfit every day?"] = "I prefer personal uniforms because they streamline decision-making, promote individual style, and reduce environmental impact.",
+    ["What’s your favorite family tradition?"] = "My favorite family tradition is our annual holiday baking day, where we gather in the kitchen to make delicious treats, share stories, and create cherished memories together.",
+    ["What was your favorite birthday party?"] = "My favorite birthday party was a surprise celebration organized by my friends and family. It was filled with laughter, love, and unforgettable moments.",
+    ["What’s one thing you would tell your childhood self?"] = "I would tell my childhood self to embrace curiosity, be kind to others, and believe in my abilities. Life is a journey of growth and discovery.",
+    ["Board games or puzzles?"] = "I enjoy both board games and puzzles, but if I had to choose, I'd pick board games. They bring people together for fun, laughter, and friendly competition.",
+    ["If you could get rid of one veggie immediately, which one would you choose?"] = "If I could get rid of one veggie immediately, it would be okra. Its slimy texture and earthy taste are not to my liking.",
+    ["Who was your favorite teacher and why?"] = "My favorite teacher was Mrs. Smith because she was passionate about her subject, supportive of her students, and always went the extra mile to ensure our success.",
+    ["What was your favorite toy growing up?"] = "My favorite toy growing up was a stuffed teddy bear named Teddy. It was my constant companion and source of comfort during both playtime and bedtime.",
+    ["Who was your first celebrity crush?"] = "My first celebrity crush was Leonardo DiCaprio. His charming smile and impressive acting skills captured my heart at a young age.",
+    ["Which celebrity would you break up with me for?"] = "I wouldn't break up with you for any celebrity. Our relationship is based on love, trust, and mutual respect, which are far more valuable than any celebrity crush.",
+    ["Romantic vacation or solo trip?"] = "I enjoy both romantic vacations and solo trips, but if I had to choose, I'd pick a romantic vacation. It's an opportunity to strengthen bonds, create lasting memories, and explore new destinations together.",
+    ["Couples costume for Halloween or no way?"] = "I'm open to the idea of couples costumes for Halloween, as long as they're creative, fun, and mutually agreed upon.",
+    ["What was the best day of your life?"] = "The best day of my life was the day I achieved a long-term goal that I had been working towards for years. It was a moment of triumph, joy, and fulfillment that I'll never forget.",
+    ["Would you still like me if I was a worm?"] = "Of course, I would still like you if you were a worm. It's not your physical form that matters to me, but your personality, values, and the bond we share.",
+    ["Dinner date or movie night at home?"] = "I enjoy both dinner dates and movie nights at home, but if I had to choose, I'd pick a dinner date. It allows for quality time, conversation, and creating shared experiences.",
+    ["What song would you serenade me with?"] = "I would serenade you with 'Can't Help Falling in Love' by Elvis Presley. Its heartfelt lyrics and beautiful melody perfectly capture my feelings for you.",
+    ["Do you have any hidden talents?"] = "Yes, I have a hidden talent for solving Rubik's cubes. It's a challenging yet satisfying puzzle that I've mastered over the years.",
+    ["Do you read your horoscope?"] = "I occasionally read my horoscope for fun, but I don't take it too seriously. I believe that we create our own destiny through our actions and choices.",
+    ["What do you consider your oddest quirk?"] = "My oddest quirk is that I have a habit of talking to myself when I'm deep in thought or trying to solve a problem. It helps me process information and organize my thoughts.",
+    ["Where is a place you’ve always wanted to visit?"] = "A place I've always wanted to visit is Japan. Its rich history, vibrant culture, and stunning landscapes have always fascinated me.",
+    ["What’s the biggest lesson you learned this year?"] = "The biggest lesson I learned this year is the importance of resilience and adaptability in the face of adversity. Life is unpredictable, but our ability to bounce back and grow stronger is what truly matters.",
+    ["Do you have a favorite book?"] = "One of my favorite books is 'The Alchemist' by Paulo Coelho. Its timeless wisdom and inspirational message about following our dreams resonate deeply with me.",
+    ["What’s your favorite film of all time?"] = "My favorite film of all time is 'The Shawshank Redemption'. Its powerful storytelling, memorable characters, and themes of hope and redemption make it a cinematic masterpiece.",
+    ["If you could live with a fictional character, who would you choose as your roommate?"] = "If I could live with a fictional character, I would choose Sherlock Holmes as my roommate. His brilliant mind, deductive reasoning skills, and quirky personality would make for an intriguing and entertaining living arrangement.",
+    ["What does your dream house look like?"] = "My dream house is a cozy cabin nestled in the mountains, surrounded by towering trees and breathtaking views. It's a peaceful retreat where I can unwind, recharge, and connect with nature.",
+    ["What impresses you the most?"] = "I'm most impressed by acts of kindness, generosity, and selflessness. It takes courage and empathy to make a positive impact on others' lives, and I deeply admire those who do.",
+    ["What is your least favorite word or phrase?"] = "My least favorite word or phrase is 'I can't'. It limits potential, closes doors, and undermines confidence. I believe in the power of 'I can' and the possibilities it brings.",
+    ["What gives you the ick?"] = "The ick for me is when someone is overly arrogant, dismissive, or disrespectful towards others. It's a major turn-off and a red flag for toxic behavior.",
+    ["Do you have any deal breakers?"] = "Yes, I have a few deal breakers in relationships, including dishonesty, lack of communication, and lack of respect. Trust and mutual respect are essential foundations for a healthy and fulfilling relationship.",
+    ["What’s your favorite flavor of ice cream?"] = "My favorite flavor of ice cream is cookies and cream. Its creamy texture, rich flavor, and chunks of cookie pieces make it irresistible!",
+    ["Would you ever share clothes with a significant other?"] = "Yes, I would be open to sharing clothes with a significant other. It can be a fun and intimate way to bond and express mutual trust and affection.",
+    ["If you were a superhero, what would your secret power be?"] = "If I were a superhero, my secret power would be the ability to teleport. It would allow me to travel instantly, explore new places, and help others in need.",
+    ["How would you spend a million dollars?"] = "If I had a million dollars, I would invest a portion for financial security, donate to charitable causes that are meaningful to me, and use the rest to travel, experience new things, and create lasting memories with loved ones.",
+    ["What was your favorite family vacation?"] = "My favorite family vacation was a trip to Hawaii. It was filled with unforgettable adventures, breathtaking scenery, and quality time spent bonding with loved ones.",
+    ["What is one thing that will always make you laugh?"] = "One thing that will always make me laugh is watching funny animal videos. Their antics, expressions, and mischievous behavior never fail to brighten my day.",
+    ["How many pillows do you sleep with?"] = "I usually sleep with two pillows for optimal comfort and support. One for my head and one for cuddling.",
+    ["Do you feel supported?"] = "Yes, I feel supported by my friends, family, and loved ones. Their encouragement, understanding, and presence make me feel valued and empowered.",
+    ["What is your favorite thing to do with another person?"] = "My favorite thing to do with another person is to have deep, meaningful conversations where we share our thoughts, feelings, and experiences openly and honestly.",
+    ["What’s your idea of a healthy relationship?"] = "My idea of a healthy relationship is built on mutual trust, respect, communication, and support. It's about accepting each other's flaws, celebrating each other's successes, and growing together as individuals and as a couple.",
+    ["What is something that will immediately ruin your day?"] = "Something that will immediately ruin my day is encountering rude or disrespectful behavior from others. It's important to treat each other with kindness, empathy, and consideration.",
+    ["Do you trust people easily?"] = "I'm generally trusting of others, but trust is something that needs to be earned over time through consistent actions and integrity.",
+    ["If you could have any animal as a pet, what would you choose?"] = "If I could have any animal as a pet, I would choose a dog. They're loyal, affectionate, and bring so much joy and companionship into our lives.",
+    ["Are you a spiritual person?"] = "Yes, I consider myself a spiritual person. I believe in the interconnectedness of all beings, the power of love and compassion, and the pursuit of inner peace and enlightenment.",
+    ["Do you believe in monogamy?"] = "Yes, I believe in monogamy as a personal choice for those who value commitment, loyalty, and emotional intimacy in their relationships.",
+    ["What’s your favorite thing about yourself?"] = "My favorite thing about myself is my resilience. I've overcome challenges and setbacks in life with determination, positivity, and a never-give-up attitude.",
+    ["Do you have any favorite sports?"] = "Yes, I enjoy playing and watching basketball. It's a dynamic and exciting sport that requires teamwork, skill, and strategy.",
+    ["What’s the ultimate comfort food?"] = "The ultimate comfort food for me is a warm bowl of homemade chicken noodle soup. It's nourishing, soothing, and reminds me of home.",
+    ["Do you have a favorite class in school?"] = "My favorite class in school was biology. I've always been fascinated by the complexity and beauty of life, from cells and organisms to ecosystems and evolution.",
+    ["What do you wish was a school class that currently isn’t?"] = "I wish there was a school class dedicated to teaching practical life skills such as financial literacy, emotional intelligence, and critical thinking. These skills are essential for navigating the complexities of adulthood and building a fulfilling life.",
+    ["Where do you want to live when you’re older?"] = "When I'm older, I want to live in a cozy cottage nestled in the countryside, surrounded by nature's beauty and tranquility.",
+    ["If you could immediately gain one ability, what would it be?"] = "If I could immediately gain one ability, it would be the power of teleportation. It would allow me to travel the world effortlessly, explore new places, and be there for loved ones in an instant.",
+    ["What is your favorite kind of gift?"] = "My favorite kind of gift is something thoughtful and personal that reflects the giver's understanding of my interests, passions, and values. It's not about the price tag but the sentiment behind the gift.",
+    ["Do you like hugs?"] = "Yes, I love hugs! They're a warm and comforting expression of affection, support, and connection.",
+    ["How do you want to be remembered?"] = "I want to be remembered as someone who made a positive difference in the world, touched people's lives with kindness and compassion, and left behind a legacy of love, laughter, and inspiration.",
+    ["When do you feel the most secure?"] = "I feel the most secure when I'm surrounded by loved ones who accept me for who I am, support me unconditionally, and make me feel valued and cherished.",
+    ["How do you define cheating?"] = "I define cheating as any form of dishonesty or betrayal that violates the trust and commitment shared in a relationship. It can include physical infidelity, emotional affairs, or breaches of trust.",
+    ["Are you a morning person or a night owl?"] = "I'm more of a morning person. I enjoy waking up early, watching the sunrise, and starting the day with energy and enthusiasm.",
+    ["What’s your favorite way to celebrate something?"] = "My favorite way to celebrate something is by gathering with loved ones, sharing good food and laughter, and creating lasting memories together.",
+    ["What’s your favorite soda?"] = "My favorite soda is root beer. Its creamy, sweet, and nostalgic flavor reminds me of carefree summer days and childhood memories.",
+    ["What emoji do you use the most?"] = "The emoji I use the most is the smiling face with heart eyes 😍. It's perfect for expressing love, admiration, and excitement.",
+    ["What’s your biggest pet peeve?"] = "My biggest pet peeve is when people chew with their mouths open. It's distracting, disrespectful, and unpleasant to listen to.",
+    ["What do you think the most important job is?"] = "I believe that all jobs are important and contribute to society in different ways. Whether it's healthcare workers saving lives, educators shaping minds, or essential workers keeping communities running smoothly, every job has value and significance.",
+    ["How do you like to spend your free time?"] = "I like to spend my free time pursuing hobbies and interests that bring me joy and fulfillment, such as reading, hiking, cooking, and spending time with loved ones.",
+    ["What’s one thing you’ve always wanted to learn?"] = "One thing I've always wanted to learn is how to play the piano. It's a beautiful and versatile instrument that allows for creativity, expression, and musical exploration.",
+    ["Do you prefer air or train travel?"] = "It depends on the destination and the experience I'm looking for. Air travel is faster and more convenient for long distances, while train travel offers scenic views, comfort, and relaxation.",
+    ["Who is your style role model?"] = "My style role model is Audrey Hepburn. Her timeless elegance, grace, and sophistication inspire me to embrace simplicity, class, and confidence in my own personal style.",
+    ["Have you ever seen a ghost?"] = "No, I've never seen a ghost, but I'm open to the possibility of the supernatural and the mysteries of the unknown.",
+    ["What was the best meal you’ve ever eaten?"] = "The best meal I've ever eaten was a homemade feast prepared by my grandmother. It was a celebration of love, family, and tradition, with delicious dishes that warmed both the body and soul.",
+    ["What is your favorite type of movie?"] = "My favorite type of movie is a psychological thriller. I enjoy the suspense, intrigue, and plot twists that keep me guessing until the very end.",
+    ["Do you like haunted houses?"] = "Yes, I enjoy haunted houses as long as they're well-done and more on the fun and spooky side rather than genuinely terrifying. It's a thrilling way to embrace the Halloween spirit and get an adrenaline rush.",
+    ["What’s the longest amount of time you’ve been away from home?"] = "The longest amount of time I've been away from home was when I studied abroad for a semester in college. It was a transformative experience filled with adventure, cultural immersion, and personal growth.",
+    ["Do you prefer traveling with others or going on a solo adventure?"] = "I enjoy both traveling with others and going on solo adventures, as each offers unique opportunities for growth, self-discovery, and connection. It ultimately depends on the destination, purpose, and company.",
+    ["What is your favorite way to kick off a day?"] = "My favorite way to kick off a day is by starting with a nutritious breakfast, practicing mindfulness or meditation, and setting positive intentions for the day ahead.",
+    ["Do you speak any other languages?"] = "Yes, I speak fluent Spanish and a bit of French. Learning languages opens doors to new cultures, perspectives, and connections, which I find incredibly rewarding.",
+    ["What’s the most important quality in a friend, in your opinion?"] = "The most important quality in a friend, in my opinion, is authenticity. I value friends who are genuine, trustworthy, and accepting of who I am, flaws and all.",
+    ["What is your favorite memory?"] = "My favorite memory is a summer road trip I took with friends. It was filled with adventure, laughter, and unforgettable moments that bonded us together and created lifelong memories.",
+    ["What kind of career do you want?"] = "I aspire to have a career that allows me to make a positive impact on others, whether it's through creative expression, helping those in need, or contributing to meaningful projects that align with my values and passions.",
+    ["Are you an introvert or an extrovert?"] = "I'm a combination of both introverted and extroverted traits, known as an ambivert. I enjoy socializing and connecting with others, but I also value solitude and introspection.",
+    ["What’s a weird smell that you really enjoy?"] = "A weird smell that I really enjoy is the scent of gasoline. It's strangely satisfying and nostalgic, reminding me of road trips and adventures.",
+    ["What do you wish you had more time to do?"] = "I wish I had more time to pursue creative hobbies and passions that bring me joy and fulfillment, such as painting, writing, and playing music.",
+    ["What’s your ideal meal?"] = "My ideal meal is a homemade feast with multiple courses, featuring a variety of flavorful dishes made with fresh, high-quality ingredients. It's a culinary experience that delights the senses and nourishes the soul.",
+    ["Do you have a favorite color?"] = "Yes, my favorite color is turquoise. Its calming and tranquil hue reminds me of clear skies, tropical waters, and peaceful serenity.",
+    ["Did you like school growing up? Why or why not?"] = "Yes, I enjoyed school growing up because I had supportive teachers, made lifelong friendships, and had opportunities to learn and grow both academically and personally.",
+    ["What makes you happy?"] = "Many things make me happy, including spending time with loved ones, pursuing hobbies and interests, helping others, and experiencing moments of joy, laughter, and gratitude.",
+    ["Who is your biggest role model?"] = "My biggest role model is my grandmother. She embodies strength, resilience, kindness, and wisdom, and has always been a source of love, guidance, and inspiration in my life.",
+    ["What do you think the most unpleasant sound is?"] = "The most unpleasant sound, in my opinion, is the screeching sound of nails on a chalkboard. It sends shivers down my spine and makes me cringe every time.",
+    ["Are there any songs you know all of the lyrics to?"] = "Yes, there are several songs I know all of the lyrics to, thanks to countless hours of singing along in the car, shower, or karaoke nights with friends.",
+    ["What is the spiciest food you’ve ever eaten?"] = "The spiciest food I've ever eaten was a ghost pepper. It was an intense and fiery experience that left my taste buds tingling and my mouth on fire!",
+    ["What do you think the worst hairstyle of all time was?"] = "In my opinion, the worst hairstyle of all time was the mullet. It's a polarizing hairstyle that's often associated with the '80s and has a distinctively outdated and unflattering look.",
+    ["What is a silly thing you take a lot of pride in?"] = "A silly thing I take a lot of pride in is my ability to do a spot-on impression of various cartoon characters. It always brings smiles and laughter to those around me!",
+    ["Do you believe in aliens?"] = "I'm open to the possibility of extraterrestrial life existing in the vast universe, but without concrete evidence, it remains a fascinating yet speculative question.",
+    ["What’s your attachment style?"] = "My attachment style is secure. I value close relationships, trust, and intimacy, and I'm comfortable both giving and receiving love and support.",
+    ["What’s your astrological sign?"] = "My astrological sign is Leo. I identify with its traits of confidence, creativity, and leadership.",
+    ["Do you think you have a greater life purpose?"] = "Yes, I believe that everyone has a greater life purpose, whether it's to make a positive impact on others, pursue passions and dreams, or contribute to the greater good in some way.",
+    ["Which of the four seasons is your favorite?"] = "My favorite season is autumn. I love the crisp air, vibrant colors, cozy sweaters, and the sense of change and renewal that comes with the season.",
+    ["Coffee or tea?"] = "I enjoy both coffee and tea, but if I had to choose, I'd pick coffee. Its rich flavor and energizing effect help kickstart my day with a jolt of caffeine.",
+    ["Have you ever won an award?"] = "Yes, I've won several awards throughout my life, ranging from academic achievements to recognitions for community service and leadership.",
+    ["How do you like to spend a rainy day?"] = "I like to spend a rainy day curled up indoors with a good book, a hot cup of tea, and a cozy blanket. It's a perfect opportunity for relaxation, reflection, and self-care.",
+    ["What’s one opportunity you feel like you missed out on?"] = "One opportunity I feel like I missed out on was studying abroad during college. It's a transformative experience that many of my friends had, and I regret not taking advantage of it when I had the chance.",
+    ["Do you remember names easily?"] = "Yes, I have a good memory for names and faces, which comes in handy in social situations and professional settings.",
+    ["Text or phone call?"] = "It depends on the situation and the nature of the conversation. For quick updates or casual chats, I prefer texting, but for more meaningful or urgent conversations, I prefer phone calls.",
+    ["Do you have a favorite kind of flower?"] = "Yes, my favorite kind of flower is the sunflower. Its bright yellow petals and cheerful demeanor never fail to lift my spirits and bring a smile to my face.",
+    ["What is your favorite piece of advice?"] = "My favorite piece of advice is 'be yourself'. Embrace your uniqueness, follow your passions, and live authentically without trying to conform to others' expectations or societal norms.",
+    ["When was the last time you cried?"] = "The last time I cried was while watching a touching movie that resonated deeply with me. It brought up emotions and memories that moved me to tears.",
+    ["What are you most worried about right now?"] = "Right now, I'm most worried about the state of the world and the challenges we face, from global issues like climate change and inequality to personal concerns about health, safety, and the future.",
+    ["How do you think the world is going to end?"] = "I think the world will continue to face a variety of challenges and crises, but ultimately, I believe in humanity's resilience, ingenuity, and capacity for positive change. It's up to us to work together to create a better future for ourselves and future generations.",
+    ["What makes you the most proud?"] = "I'm most proud of my personal growth and achievements, both big and small, and the positive impact I've been able to make in the lives of others. It's a testament to my resilience, determination, and commitment to living a meaningful life.",
+    ["What’s one thing you would change about yourself?"] = "One thing I would change about myself is my tendency to procrastinate. I strive to be more disciplined, proactive, and focused on my goals and priorities.",
+    ["What motivates you?"] = "I'm motivated by a desire to make a difference in the world, pursue my passions and dreams, and live a life of purpose, meaning, and fulfillment.",
+    ["What do you do when you need some inspiration?"] = "When I need inspiration, I seek out nature, art, music, or literature that speaks to my soul and stirs my imagination. I also find inspiration in meaningful conversations, personal experiences, and moments of reflection and introspection.",
+    ["When was the last time you got into a fight?"] = "The last time I got into a fight was a minor disagreement with a friend over a misunderstanding. We were able to resolve it quickly and peacefully by communicating openly and listening to each other's perspectives.",
+    ["What’s your favorite thing about the night sky?"] = "My favorite thing about the night sky is the sense of wonder and awe it inspires. From twinkling stars and shimmering constellations to the mysterious beauty of the moon and the vastness of the cosmos, it reminds me of the infinite possibilities and mysteries of the universe.",
 }
 
--- Function to clean up and format the input text
-local function cleanInput(input)
-    -- Remove leading and trailing whitespaces
-    input = input:match("^%s*(.-)%s*$")
-    -- Capitalize the first letter
-    input = input:gsub("^%l", string.upper)
-    return input
-end
-
--- Function to find the closest match to the user's input among the provided questions
-local function findClosestMatch(input)
-    local closestMatch = nil
+-- Function to handle user input and select a response
+function handleInput(input)
+    local closestMatch = ""
     local closestScore = -1
-    for _, question in ipairs(randomQuestions) do
-        -- Clean up and format the question for comparison
-        local cleanedQuestion = cleanInput(question)
-        -- Calculate the similarity score using Levenshtein distance
-        local distance = 0
-        for i = 1, math.min(#cleanedQuestion, #input) do
-            if cleanedQuestion:sub(i, i) ~= input:sub(i, i) then
-                distance = distance + 1
-            end
-        end
-        local score = 1 - (distance / math.max(#cleanedQuestion, #input))
-        -- Update closest match if the current question has a higher score
+    
+    for question, response in pairs(randomQuestions) do
+        local score = similarity(input, question)
         if score > closestScore then
-            closestMatch = question
             closestScore = score
+            closestMatch = response
         end
     end
+    
     return closestMatch
 end
 
--- Function to handle the user's input and provide a response
-local function handleInput(input)
-    -- Clean up and format the input text
-    input = cleanInput(input)
-    -- Check if the input is empty or contains only whitespace
-    if input == "" then
-        return "[Error!] No message supplied lil bro"
+-- Function to calculate the similarity between two strings
+function similarity(s1, s2)
+    local str1 = s1:lower():gsub("[^%w ]", "")
+    local str2 = s2:lower():gsub("[^%w ]", "")
+    local len1 = #str1
+    local len2 = #str2
+    local matrix = {}
+    
+    for i = 0, len1 do
+        matrix[i] = {[0] = i}
     end
-    -- Check if the input contains any special characters indicating it's not a question
-    if input:find("%W") then
-        return "[Error!] That doesn't look like a question, but I'll do my best to respond!"
+    
+    for j = 0, len2 do
+        matrix[0][j] = j
     end
-    -- Find the closest match to the user's input among the provided questions
-    local closestMatch = findClosestMatch(input)
-    return closestMatch
+    
+    for i = 1, len1 do
+        for j = 1, len2 do
+            local cost = str1:sub(i,i) == str2:sub(j,j) and 0 or 1
+            matrix[i][j] = math.min(
+                matrix[i-1][j] + 1,
+                matrix[i][j-1] + 1,
+                matrix[i-1][j-1] + cost
+            )
+        end
+    end
+    
+    return 1 - matrix[len1][len2] / math.max(len1, len2)
 end
 
--- Example usage:
-print(handleInput("What waz ur favorite movy?"))  -- Output: What’s your favorite film of all time?
-print(handleInput("Whyy Are turtles GREEN"))  -- Output: Why are turtles green?
-print(handleInput("I like food."))  -- Output: [Error!] That doesn't look like a question, but I'll do my best to respond!
-print(handleInput(" "))  -- Output: [Error!] No message supplied lil bro
+-- Test the handleInput function
+print(handleInput("Why are turtles green?"))
